@@ -13,6 +13,7 @@
 		D593994D28EE10140082A3F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D593994C28EE10140082A3F9 /* Preview Assets.xcassets */; };
 		D593994F28EE10140082A3F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593994E28EE10140082A3F9 /* Persistence.swift */; };
 		D593995228EE10140082A3F9 /* EZPZ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D593995028EE10140082A3F9 /* EZPZ.xcdatamodeld */; };
+		D593995F28EE11F60082A3F9 /* imsi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593995E28EE11F60082A3F9 /* imsi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D593994E28EE10140082A3F9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D593995128EE10140082A3F9 /* EZPZ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZPZ.xcdatamodel; sourceTree = "<group>"; };
 		D593995328EE10140082A3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D593995E28EE11F60082A3F9 /* imsi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imsi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,13 @@
 		D593994428EE10130082A3F9 /* EZPZ */ = {
 			isa = PBXGroup;
 			children = (
+				D593995D28EE11630082A3F9 /* Resources */,
+				D593995C28EE11350082A3F9 /* Models */,
+				D593995B28EE112D0082A3F9 /* ViewModels */,
+				D593995A28EE11260082A3F9 /* Views */,
+				D593995928EE11160082A3F9 /* Extensions */,
 				D593994528EE10130082A3F9 /* EZPZApp.swift */,
-				D593994728EE10130082A3F9 /* ContentView.swift */,
-				D593994928EE10140082A3F9 /* Assets.xcassets */,
-				D593994E28EE10140082A3F9 /* Persistence.swift */,
 				D593995328EE10140082A3F9 /* Info.plist */,
-				D593995028EE10140082A3F9 /* EZPZ.xcdatamodeld */,
 				D593994B28EE10140082A3F9 /* Preview Content */,
 			);
 			path = EZPZ;
@@ -73,6 +76,46 @@
 				D593994C28EE10140082A3F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D593995928EE11160082A3F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D593995A28EE11260082A3F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D593994728EE10130082A3F9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D593995B28EE112D0082A3F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D593995E28EE11F60082A3F9 /* imsi.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D593995C28EE11350082A3F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D593995028EE10140082A3F9 /* EZPZ.xcdatamodeld */,
+				D593994E28EE10140082A3F9 /* Persistence.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D593995D28EE11630082A3F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D593994928EE10140082A3F9 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D593995F28EE11F60082A3F9 /* imsi.swift in Sources */,
 				D593994F28EE10140082A3F9 /* Persistence.swift in Sources */,
 				D593994828EE10130082A3F9 /* ContentView.swift in Sources */,
 				D593995228EE10140082A3F9 /* EZPZ.xcdatamodeld in Sources */,
