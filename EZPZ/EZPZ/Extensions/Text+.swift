@@ -14,6 +14,10 @@ extension Font {
     static let price = Font.custom("GillSans-SemiBoldItalic", size: 12)
 }
 
+/*
+ === SpoqaHanSans-Regular
+ === SpoqaHanSans-Bold
+ */
 extension Text {
     func basicTitle1() -> Text {
         self.font(Font.custom("ppap", size: 34))

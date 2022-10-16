@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7003404E28FC93C20066C59B /* Spoqa Han Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7003404C28FC93C10066C59B /* Spoqa Han Sans Regular.ttf */; };
+		7003404F28FC93C20066C59B /* Spoqa Han Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7003404D28FC93C20066C59B /* Spoqa Han Sans Bold.ttf */; };
 		70761C0228FB1327000D399A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70761C0128FB1327000D399A /* Colors.xcassets */; };
 		70761C0428FB18FB000D399A /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0328FB18FB000D399A /* Color+.swift */; };
 		70761C0628FB2034000D399A /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0528FB2034000D399A /* View+.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7003404C28FC93C10066C59B /* Spoqa Han Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Regular.ttf"; sourceTree = "<group>"; };
+		7003404D28FC93C20066C59B /* Spoqa Han Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Bold.ttf"; sourceTree = "<group>"; };
 		70761C0128FB1327000D399A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		70761C0328FB18FB000D399A /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		70761C0528FB2034000D399A /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
@@ -57,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7003404B28FC93A70066C59B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7003404D28FC93C20066C59B /* Spoqa Han Sans Bold.ttf */,
+				7003404C28FC93C10066C59B /* Spoqa Han Sans Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D50154C028FAD6AB001BA8D5 /* OnBoardingView */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +148,7 @@
 		D593994428EE10130082A3F9 /* EZPZ */ = {
 			isa = PBXGroup;
 			children = (
+				7003404B28FC93A70066C59B /* Fonts */,
 				D593995D28EE11630082A3F9 /* Resources */,
 				D593995C28EE11350082A3F9 /* Models */,
 				D593995A28EE11260082A3F9 /* Views */,
@@ -251,7 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7003404E28FC93C20066C59B /* Spoqa Han Sans Regular.ttf in Resources */,
 				D593994D28EE10140082A3F9 /* Preview Assets.xcassets in Resources */,
+				7003404F28FC93C20066C59B /* Spoqa Han Sans Bold.ttf in Resources */,
 				D593994A28EE10140082A3F9 /* Assets.xcassets in Resources */,
 				70761C0228FB1327000D399A /* Colors.xcassets in Resources */,
 			);
@@ -408,6 +424,7 @@
 				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EZPZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +454,7 @@
 				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EZPZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
