@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7003404E28FC93C20066C59B /* Spoqa Han Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7003404C28FC93C10066C59B /* Spoqa Han Sans Regular.ttf */; };
+		7003404F28FC93C20066C59B /* Spoqa Han Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7003404D28FC93C20066C59B /* Spoqa Han Sans Bold.ttf */; };
+		70761C0228FB1327000D399A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70761C0128FB1327000D399A /* Colors.xcassets */; };
+		70761C0428FB18FB000D399A /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0328FB18FB000D399A /* Color+.swift */; };
+		70761C0628FB2034000D399A /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0528FB2034000D399A /* View+.swift */; };
+		70761C0828FB2805000D399A /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0728FB2805000D399A /* Text+.swift */; };
 		D50154C728FAD73D001BA8D5 /* MainChallengeSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50154C628FAD73D001BA8D5 /* MainChallengeSuperView.swift */; };
 		D50154C928FAD74A001BA8D5 /* MainChallengeEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50154C828FAD74A001BA8D5 /* MainChallengeEmptyView.swift */; };
 		D50154CC28FAD77B001BA8D5 /* TodoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50154CB28FAD77B001BA8D5 /* TodoEditView.swift */; };
@@ -22,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7003404C28FC93C10066C59B /* Spoqa Han Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Regular.ttf"; sourceTree = "<group>"; };
+		7003404D28FC93C20066C59B /* Spoqa Han Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Bold.ttf"; sourceTree = "<group>"; };
+		70761C0128FB1327000D399A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		70761C0328FB18FB000D399A /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		70761C0528FB2034000D399A /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		70761C0728FB2805000D399A /* Text+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
 		D50154C628FAD73D001BA8D5 /* MainChallengeSuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChallengeSuperView.swift; sourceTree = "<group>"; };
 		D50154C828FAD74A001BA8D5 /* MainChallengeEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChallengeEmptyView.swift; sourceTree = "<group>"; };
 		D50154CB28FAD77B001BA8D5 /* TodoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEditView.swift; sourceTree = "<group>"; };
@@ -49,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7003404B28FC93A70066C59B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7003404D28FC93C20066C59B /* Spoqa Han Sans Bold.ttf */,
+				7003404C28FC93C10066C59B /* Spoqa Han Sans Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D50154C028FAD6AB001BA8D5 /* OnBoardingView */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				D50154D328FAD825001BA8D5 /* imsi+.swift */,
+				70761C0328FB18FB000D399A /* Color+.swift */,
+				70761C0528FB2034000D399A /* View+.swift */,
+				70761C0728FB2805000D399A /* Text+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -124,11 +148,13 @@
 		D593994428EE10130082A3F9 /* EZPZ */ = {
 			isa = PBXGroup;
 			children = (
+				7003404B28FC93A70066C59B /* Fonts */,
 				D593995D28EE11630082A3F9 /* Resources */,
 				D593995C28EE11350082A3F9 /* Models */,
 				D593995A28EE11260082A3F9 /* Views */,
 				D593995B28EE112D0082A3F9 /* ViewModels */,
 				D593994528EE10130082A3F9 /* EZPZApp.swift */,
+				70761C0128FB1327000D399A /* Colors.xcassets */,
 				D50154D228FAD817001BA8D5 /* Extensions */,
 				D593995328EE10140082A3F9 /* Info.plist */,
 				D593994B28EE10140082A3F9 /* Preview Content */,
@@ -239,8 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7003404E28FC93C20066C59B /* Spoqa Han Sans Regular.ttf in Resources */,
 				D593994D28EE10140082A3F9 /* Preview Assets.xcassets in Resources */,
+				7003404F28FC93C20066C59B /* Spoqa Han Sans Bold.ttf in Resources */,
 				D593994A28EE10140082A3F9 /* Assets.xcassets in Resources */,
+				70761C0228FB1327000D399A /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,14 +280,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70761C0828FB2805000D399A /* Text+.swift in Sources */,
 				D593995F28EE11F60082A3F9 /* imsi.swift in Sources */,
 				D593994F28EE10140082A3F9 /* Persistence.swift in Sources */,
 				D593994828EE10130082A3F9 /* ContentView.swift in Sources */,
 				D50154C728FAD73D001BA8D5 /* MainChallengeSuperView.swift in Sources */,
+				70761C0628FB2034000D399A /* View+.swift in Sources */,
 				D50154CC28FAD77B001BA8D5 /* TodoEditView.swift in Sources */,
 				D50154D428FAD825001BA8D5 /* imsi+.swift in Sources */,
 				D593995228EE10140082A3F9 /* EZPZ.xcdatamodeld in Sources */,
 				D50154C928FAD74A001BA8D5 /* MainChallengeEmptyView.swift in Sources */,
+				70761C0428FB18FB000D399A /* Color+.swift in Sources */,
 				D50154CE28FAD78C001BA8D5 /* MainChallengePinView.swift in Sources */,
 				D593994628EE10130082A3F9 /* EZPZApp.swift in Sources */,
 			);
@@ -392,6 +424,7 @@
 				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EZPZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -421,6 +454,7 @@
 				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EZPZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
