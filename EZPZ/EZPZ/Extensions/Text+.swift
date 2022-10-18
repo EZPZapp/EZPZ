@@ -8,72 +8,72 @@
 import SwiftUI
 
 extension Text {
-    func basicTitle1() -> Text {
+    func setBasicTitle1() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 34))
             .foregroundColor(.grayScale1)
     }
     
-    func limeTitle1() -> Text {
+    func setLimeTitle1() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 34))
             .foregroundColor(.ezpzLime)
     }
     
-    func basicTitle2() -> Text {
+    func setBasicTitle2() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 28))
             .foregroundColor(.grayScale1)
     }
     
-    func limeTitle2() -> Text {
+    func setLimeTitle2() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 28))
             .foregroundColor(.ezpzLime)
     }
     
-    func pinkTitle3() -> Text {
+    func setPinkTitle3() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 24))
             .foregroundColor(.ezpzPink)
     }
     
-    func limeTitle4() -> Text {
+    func setLimeTitle4() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 18))
             .foregroundColor(.ezpzLime)
     }
     
-    func basicHeadline() -> Text {
+    func setBasicHeadline() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 17))
             .foregroundColor(.grayScale1)
     }
     
-    func limeHeadline() -> Text {
+    func setLimeHeadline() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 17))
             .foregroundColor(.ezpzLime)
     }
     
-    func basicBody() -> Text {
+    func setBasicBody() -> Text {
         self.font(Font.custom("SpoqaHanSans-Regular", size: 17))
             .foregroundColor(.grayScale1)
     }
     
-    func grayScale3Body() -> Text {
+    func setGrayScale3Body() -> Text {
         self.font(Font.custom("SpoqaHanSans-Regular", size: 17))
             .foregroundColor(.grayScale3)
     }
     
-    func grayScale4Body() -> Text {
+    func setGrayScale4Body() -> Text {
         self.font(Font.custom("SpoqaHanSans-Regular", size: 17))
             .foregroundColor(.grayScale4)
     }
     
-    func grayScale3Caption() -> Text {
+    func setGrayScale3Caption() -> Text {
         self.font(Font.custom("SpoqaHanSans-Regular", size: 13))
             .foregroundColor(.grayScale3)
     }
     
-    func limeCaption() -> Text {
+    func setLimeCaption() -> Text {
         self.font(Font.custom("SpoqaHanSans-Regular", size: 13))
             .foregroundColor(.ezpzLime)
     }
     
-    func grayScale3Headline() -> Text {
+    func setGrayScale3Headline() -> Text {
         self.font(Font.custom("SpoqaHanSans-Bold", size: 17))
             .foregroundColor(.grayScale3)
     }
