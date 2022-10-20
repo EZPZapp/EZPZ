@@ -7,37 +7,37 @@
 
 import SwiftUI
 
-struct TabBarView: View {
+struct TabItemView: View {
     
     init() {
         UITabBar.appearance().backgroundColor = UIColor(Color("EZPZBlack"))
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color("Grayscale2"))
     }
     
-    @State var tabBarIndex: Int = 0
+    @State var tabViewIndex: Int = 0
     
     var body: some View {
-        TabView(selection: $tabBarIndex){
+        TabView(selection: $tabViewIndex){
 
-            imsi(check: tabBarIndex)
+            imsi(check: tabViewIndex)
                 .tabItem {
                     Image(systemName: "checkmark.square") // 린다에게 아이콘 전달받으면 변경 예정
                     Text("오늘할일")
                 }.tag(0)
             
-            imsi(check: tabBarIndex)
+            imsi(check: tabViewIndex)
                 .tabItem {
                     Image(systemName: "list.dash") // 린다에게 아이콘 전달받으면 변경 예정
                     Text("내도전")
                 }.tag(1)
             
-            imsi(check: tabBarIndex)
+            imsi(check: tabViewIndex)
                 .tabItem {
                     Image(systemName: "highlighter")
                     Text("돌아보기")
                 }.tag(2)
             
-            imsi(check: tabBarIndex)
+            imsi(check: tabViewIndex)
                 .tabItem {
                     Image(systemName: "gearshape.fill")
                     Text("설정")

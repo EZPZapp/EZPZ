@@ -13,7 +13,7 @@ struct EZPZApp: App {
 
     var body: some Scene {
         WindowGroup {
-            TabBarView()
+            TabItemView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
