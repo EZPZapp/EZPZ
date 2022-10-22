@@ -21,13 +21,22 @@ struct TabItemView: View {
 
             imsi(check: tabViewIndex)
                 .tabItem {
-                    Image(systemName: "checkmark.square") // 린다에게 아이콘 전달받으면 변경 예정
+                    if tabViewIndex == 0 {
+                        Image("challengeList-selected")
+                    } else {
+                        Image("challengeList-disable")
+                            .font(.system(size: 20))
+                    }
                     Text("오늘할일")
                 }.tag(0)
             
             imsi(check: tabViewIndex)
                 .tabItem {
-                    Image(systemName: "list.dash") // 린다에게 아이콘 전달받으면 변경 예정
+                    if tabViewIndex == 1 {
+                        Image("today-selected")
+                    } else {
+                        Image("today-disable")
+                    }
                     Text("내도전")
                 }.tag(1)
             
