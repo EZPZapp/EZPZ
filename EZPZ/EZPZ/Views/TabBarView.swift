@@ -19,7 +19,7 @@ struct TabItemView: View {
     var body: some View {
         TabView(selection: $tabViewIndex){
 
-            imsi(check: tabViewIndex)
+            MainChallengeView(check: tabViewIndex)
                 .tabItem {
                     if tabViewIndex == 0 {
                         Image("challengeList-selected")
@@ -51,6 +51,18 @@ struct TabItemView: View {
                     Image(systemName: "gearshape.fill")
                     Text("설정")
                 }.tag(3)
+            
+            // EmptyView UI 확인을 위한 아이템 추가
+            MainChallengeEmptyView(check: tabViewIndex)
+                .tabItem {
+                    if tabViewIndex == 4 {
+                        Image("challengeList-selected")
+                    } else {
+                        Image("challengeList-disable")
+                            .font(.system(size: 20))
+                    }
+                    Text("빈 도전")
+                }.tag(4) // 코어데이터가 연결되면 지울 예정입니다
         }
         .accentColor(Color("EZPZPink")) // 선택된 아이템 색
     }
