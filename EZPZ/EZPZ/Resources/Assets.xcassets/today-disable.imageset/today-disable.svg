@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="35px" viewBox="0 0 35 35" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(60%,60%,60%);stroke-opacity:1;stroke-miterlimit:4;" d="M 74.010857 53.998373 L 168.997882 53.998373 C 204.879013 53.998373 234.014364 83.133723 234.014364 118.982732 L 234.014364 214.001879 C 234.014364 225.052112 225.052112 234.014364 214.001879 234.014364 L 118.982732 234.014364 C 83.133723 234.014364 53.998373 204.879013 53.998373 168.997882 L 53.998373 74.010857 C 53.998373 62.960625 62.960625 53.998373 74.010857 53.998373 Z M 74.010857 53.998373 " transform="matrix(0.121604,0,0,0.121604,0,0)"/>
+<path style="fill:none;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(60%,60%,60%);stroke-opacity:1;stroke-miterlimit:4;" d="M 101.989788 137.999411 L 125.985496 180.015991 L 185.990826 107.996746 " transform="matrix(0.121604,0,0,0.121604,0,0)"/>
+</g>
+</svg>
