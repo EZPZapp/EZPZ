@@ -82,31 +82,3 @@ struct SettingListView_Previews: PreviewProvider {
         SettingListView()
     }
 }
-
-//List {
-//    Text("    앱 버전 정보")
-//        .setBasicBody()
-//        .listRowBackground(Color.grayScale5)
-//        .listRowSeparatorTint(Color.white.opacity(0.2))
-//        .listRowInsets(EdgeInsets())
-//    Text("    푸시 알림 설정")
-//        .setBasicBody()
-//        .listRowBackground(Color.grayScale5)
-//        .listRowSeparatorTint(Color.white.opacity(0.2))
-//        .listRowInsets(EdgeInsets())
-//    Text("    라이센스 정보")
-//        .setBasicBody()
-//        .listRowBackground(Color.grayScale5)
-//        .listRowSeparatorTint(Color.white.opacity(0.2))
-//        .listRowInsets(EdgeInsets())
-//    Text("    이용 약관")
-//        .setBasicBody()
-//        .listRowBackground(Color.grayScale5)
-//        .listRowSeparatorTint(Color.white.opacity(0.2))
-//        .listRowInsets(EdgeInsets())
-//    Text("    도전 포기하기")
-//        .foregroundColor(Color.red)
-//        .listRowBackground(Color.grayScale5)
-//        .listRowInsets(EdgeInsets())
-//}
-
