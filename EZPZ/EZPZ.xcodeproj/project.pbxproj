@@ -13,6 +13,10 @@
 		70761C0428FB18FB000D399A /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0328FB18FB000D399A /* Color+.swift */; };
 		70761C0628FB2034000D399A /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0528FB2034000D399A /* View+.swift */; };
 		70761C0828FB2805000D399A /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761C0728FB2805000D399A /* Text+.swift */; };
+		7EADD3232902788200E010D3 /* MySettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADD3222902788200E010D3 /* MySettingView.swift */; };
+		7EADD3AB29052AFF00E010D3 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADD3AA29052AFF00E010D3 /* MyProfileView.swift */; };
+		7EADD3AD290576F600E010D3 /* SettingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADD3AC290576F600E010D3 /* SettingListView.swift */; };
+		7EADD3AF290577D800E010D3 /* MyProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADD3AE290577D800E010D3 /* MyProfileEditView.swift */; };
 		D50154C728FAD73D001BA8D5 /* MainChallengeSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50154C628FAD73D001BA8D5 /* MainChallengeSuperView.swift */; };
 		D50154C928FAD74A001BA8D5 /* MainChallengeEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50154C828FAD74A001BA8D5 /* MainChallengeEmptyView.swift */; };
 		D50154CC28FAD77B001BA8D5 /* TodoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50154CB28FAD77B001BA8D5 /* TodoEditView.swift */; };
@@ -34,6 +38,10 @@
 		70761C0328FB18FB000D399A /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		70761C0528FB2034000D399A /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		70761C0728FB2805000D399A /* Text+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
+		7EADD3222902788200E010D3 /* MySettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySettingView.swift; sourceTree = "<group>"; };
+		7EADD3AA29052AFF00E010D3 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		7EADD3AC290576F600E010D3 /* SettingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingListView.swift; sourceTree = "<group>"; };
+		7EADD3AE290577D800E010D3 /* MyProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileEditView.swift; sourceTree = "<group>"; };
 		D50154C628FAD73D001BA8D5 /* MainChallengeSuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChallengeSuperView.swift; sourceTree = "<group>"; };
 		D50154C828FAD74A001BA8D5 /* MainChallengeEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChallengeEmptyView.swift; sourceTree = "<group>"; };
 		D50154CB28FAD77B001BA8D5 /* TodoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEditView.swift; sourceTree = "<group>"; };
@@ -68,6 +76,17 @@
 				7003404C28FC93C10066C59B /* Spoqa Han Sans Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7EADD3212902784100E010D3 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				7EADD3222902788200E010D3 /* MySettingView.swift */,
+				7EADD3AA29052AFF00E010D3 /* MyProfileView.swift */,
+				7EADD3AE290577D800E010D3 /* MyProfileEditView.swift */,
+				7EADD3AC290576F600E010D3 /* SettingListView.swift */,
+			);
+			path = SettingView;
 			sourceTree = "<group>";
 		};
 		D50154C028FAD6AB001BA8D5 /* OnBoardingView */ = {
@@ -177,6 +196,7 @@
 				D50154C228FAD6F0001BA8D5 /* ChallegeAddView */,
 				D50154C128FAD6BA001BA8D5 /* MainView */,
 				D593994728EE10130082A3F9 /* ContentView.swift */,
+				7EADD3212902784100E010D3 /* SettingView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,11 +301,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				70761C0828FB2805000D399A /* Text+.swift in Sources */,
+				7EADD3AB29052AFF00E010D3 /* MyProfileView.swift in Sources */,
 				D593995F28EE11F60082A3F9 /* imsi.swift in Sources */,
 				D593994F28EE10140082A3F9 /* Persistence.swift in Sources */,
 				D593994828EE10130082A3F9 /* ContentView.swift in Sources */,
+				7EADD3AD290576F600E010D3 /* SettingListView.swift in Sources */,
 				D50154C728FAD73D001BA8D5 /* MainChallengeSuperView.swift in Sources */,
+				7EADD3232902788200E010D3 /* MySettingView.swift in Sources */,
 				70761C0628FB2034000D399A /* View+.swift in Sources */,
+				7EADD3AF290577D800E010D3 /* MyProfileEditView.swift in Sources */,
 				D50154CC28FAD77B001BA8D5 /* TodoEditView.swift in Sources */,
 				D50154D428FAD825001BA8D5 /* imsi+.swift in Sources */,
 				D593995228EE10140082A3F9 /* EZPZ.xcdatamodeld in Sources */,
